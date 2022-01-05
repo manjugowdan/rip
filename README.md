@@ -5,7 +5,7 @@ import cv2
 img = cv2.imread('E:letteRm.jpg')
 (h, w) = img.shape[:2
                     ]
-# calculate the center of the image
+calculate the center of the image
 center = (w / 2, h / 2)
  
 angle90 = 90
